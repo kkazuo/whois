@@ -1,0 +1,12 @@
+name: whois
+description: Lightweight and performant WHOIS client supporting hundreds of TLDs.
+version: 1.0.0
+homepage: https://github.com/xeost/whois
+repository: https://github.com/xeost/whois
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
