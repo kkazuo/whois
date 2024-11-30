@@ -111,6 +111,7 @@ class Whois {
     socket.listen(
       // Handle data from the server
       (Uint8List data) {
+        if (completer.isCompleted) return;
         final serverResponse = String.fromCharCodes(data);
         completer.complete(serverResponse);
       },
